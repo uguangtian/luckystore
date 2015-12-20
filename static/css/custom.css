@@ -1,0 +1,142 @@
+div.page-head{
+    font-size: 25px;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+ul.info{
+    margin-top: 10px;
+
+}
+
+div.form-group{
+    max-width: 600px;
+    margin-top: -20px;
+    
+
+}
+
+/*
+when max-width:760px, effect on screen which less than 768px;
+when min-width:760px, effect on the more than 760px one;
+*/
+@media (max-width: 600px) {
+div.form-group{
+    max-width:300px;
+    margin-top: -20px;
+    
+
+}
+
+  }
+
+
+nav.paging{
+    /*padding-top: -10px !important;*/
+    /*padding-bottom: 0px !important;*/
+}
+
+
+div.nav-header{
+        margin-bottom: 50px !important;
+}
+
+
+ul.nav-pills{
+    margin-left: 12px;
+
+    margin-top: 18px !important;
+    margin-bottom: -4px !important;
+}
+
+
+a.green-path{
+    color: white !important;
+    background-color: #337AB7!important;
+    /*margin-left: 68px !important;*/
+
+}
+
+div.navbar.navbar-default {
+    background-image: url(../img/bg.jpg);
+
+}
+a.navbar-brand{
+    color: white !important;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 19px;
+    /*margin-left:auto !important; */
+
+    
+}
+
+
+div.footer{
+    margin-bottom: 0px !important;
+}
+
+body {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #2c3e50 !important;
+    background-color: #ffffff !important;
+}
+
+
+#home .navbar-brand {
+    padding: 13.5px 15px 12.5px !important;
+}
+/*.navbar-default .navbar-brand {
+    color: #ffffff !important;
+}*/
+
+.navbar-default .navbar-brand {
+    color: #34495e;
+}
+
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7 !important;
+}
+li.unactive{
+    background-color: white;
+}
+a.button{
+       text-decoration:none !important;
+}
+
+/*from bootstrap*/
+.container {
+padding-right: 5px !important;
+padding-left: 5px !important;
+padding-top: 5px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.article .panel.lost {
+  border-left-color: #aa6708 !important;
+border-left-width: 8px !important;
+
+}
+.article .panel {
+border-left-color: #1b809e;
+border-left-width: 8px !important;
+
+/*show shadow*/
+box-shadow: 0 4px 12px 0 
+rgba(0, 0, 0, 0.2), 0 4px 16px 0 
+rgba(0, 0, 0, 0.19) !important;
+
+padding-left: 0px !important;
+padding-right: 0px !important;
+
+}
+.panel{
+margin-bottom: 0px !important;
+margin-top: 0px !important;
+
+}
